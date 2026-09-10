@@ -1,26 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import MyFlatList from "./src/ui/MyFlatList";
-import { BasicComponents } from "./src/ui/BasicComponents";
 import { Inputs } from "./src/ui/Inputs";
 import { MyKeyboard } from "./src/ui/MyKeybord";
-import { LayoutExample } from "./src/ui/LayoutExample";
+import CategoryScreen from "./src/screens/CategoryScreen";
 
 export default function App() {
   return (
-    <LayoutExample />
-    // <View style={styles.container}>
-    //   <ImageBackground
-    //     source={{ uri: "https://picsum.photos/800/600" }}
-    //     style={{ flex: 1, justifyContent: "center" }}
-    //   >
-    //     <Text style={styles.text}>
-    //       Ласкаво прошу до нашого додатку на React Native!
-    //     </Text>
-    //     <MyFlatList />
-    //     <StatusBar style="auto" />
-    //   </ImageBackground>
-    // </View>
+    <View style={styles.container}>
+      <CategoryScreen />
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
