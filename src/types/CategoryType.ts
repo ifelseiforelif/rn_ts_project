@@ -1,5 +1,5 @@
 type CategoryType = {
-  id: number | string;
+  id?: number | string;
   name: string;
   color: string;
   image: string;
