@@ -16,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#7cf0b0",
+    backgroundColor: "#f2f6f4",
     justifyContent: "center", // центрує вміст по вертикалі
   },
   text: {
