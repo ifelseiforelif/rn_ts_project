@@ -3,7 +3,7 @@ import CategoryType from "../types/CategoryType";
 import { useState } from "react";
 
 export default function CategoryScreen() {
-  const URL: string = "https://baa2-37-52-79-159.ngrok-free.app/categories";
+  const URL: string = "http://10.0.0.36:3000/categories";
   const [category, setCategory] = useState<CategoryType>({
     name: "",
     image: "",

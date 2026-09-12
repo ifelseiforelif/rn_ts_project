@@ -3,11 +3,13 @@ import { ImageBackground, StyleSheet, Text, View } from "react-native";
 import { Inputs } from "./src/ui/Inputs";
 import { MyKeyboard } from "./src/ui/MyKeybord";
 import CategoryScreen from "./src/screens/CategoryScreen";
+import HomeScreen from "./src/screens/HomeScreet";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CategoryScreen />
+      {/* <CategoryScreen /> */}
+      <HomeScreen />
       <StatusBar style="auto" />
     </View>
   );
