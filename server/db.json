@@ -216,6 +216,16 @@
       "rating": 4.4,
       "reviews": 49,
       "image": "https://cdn-icons-png.flaticon.com/512/2935/2935307.png"
+    },
+    {
+      "id": "p19",
+      "categoryId": "cat_drinks",
+      "title": "Cacao",
+      "price": 38,
+      "unit": "грн/0.5л",
+      "rating": 4.4,
+      "reviews": 49,
+      "image": "https://cdn-icons-png.flaticon.com/512/2935/2935307.png"
     }
   ]
 }
